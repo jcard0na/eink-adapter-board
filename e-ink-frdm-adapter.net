@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/javier/dev/e-ink-frdm-adapter/e-ink-frdm-adapter.sch)
-    (date "Sat 16 Jul 2016 12:55:13 AM PDT")
+    (date "Sat 16 Jul 2016 02:08:27 AM PDT")
     (tool "Eeschema 4.0.2+e4-6225~38~ubuntu16.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -274,12 +274,12 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical transistors)
       (uri /usr/share/kicad/library/transistors.lib))
     (library (logical device)
-      (uri /usr/share/kicad/library/device.lib)))
+      (uri /usr/share/kicad/library/device.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name /~RESET)
       (node (ref P2) (pin 1))

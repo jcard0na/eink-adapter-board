@@ -3,9 +3,9 @@
   (general
     (links 50)
     (no_connects 0)
-    (area 102.215477 50.904999 137.235001 93.36)
+    (area 106.604999 51.994999 137.235001 80.720001)
     (thickness 1.6)
-    (drawings 6)
+    (drawings 7)
     (tracks 231)
     (zones 0)
     (modules 23)
@@ -899,6 +899,9 @@
     )
   )
 
+  (gr_text "Muchi Corporation\ne-ink display adapter board\nv0.1" (at 135.001 58.547 270) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+  )
   (gr_line (start 137.16 80.645) (end 137.16 76.2) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 106.68 80.645) (end 137.16 80.645) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 106.68 76.2) (end 106.68 80.645) (layer Edge.Cuts) (width 0.15))
