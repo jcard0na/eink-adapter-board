@@ -48,8 +48,8 @@ L CONN_01X24 P1
 U 1 1 578975F2
 P 8075 3575
 F 0 "P1" H 8075 4825 50  0000 C CNN
-F 1 "2-1734839-4" V 8175 3575 50  0000 C CNN
-F 2 "muchi_footprints:TE-2-1734839-4" H 8075 3575 50  0001 C CNN
+F 1 "TE-2-1734592-4" V 8175 3575 50  0000 C CNN
+F 2 "muchi_footprints:TE-2-1734592-4-bottom_contact" H 8075 3575 50  0001 C CNN
 F 3 "" H 8075 3575 50  0000 C CNN
 	1    8075 3575
 	1    0    0    -1  
@@ -183,7 +183,7 @@ F 3 "" V 5400 3550 50  0000 C CNN
 $EndComp
 Text Label 5825 3550 0    60   ~ 0
 PREVGL
-Text Label 7375 4625 0    60   ~ 0
+Text Label 7350 4625 0    60   ~ 0
 PREVGL
 $Comp
 L C_Small C8
