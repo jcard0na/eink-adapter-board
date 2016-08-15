@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 102.215477 50.904999 137.235001 89.55)
     (thickness 1.6)
-    (drawings 7)
+    (drawings 8)
     (tracks 231)
     (zones 0)
     (modules 23)
@@ -899,7 +899,8 @@
     (pad "" smd rect (at 7.5 -0.5 180) (size 2.3 3.1) (layers F.Cu F.Paste F.Mask))
   )
 
-  (gr_text "Muchi Corporation\ne-ink display adapter board\nv0.1" (at 135.001 58.547 270) (layer F.SilkS)
+  (gr_circle (center 132.588 54.229) (end 132.461 53.721) (layer F.SilkS) (width 1))
+  (gr_text "Muchi Corporation\ne-ink display adapter board\nv0.2" (at 135.001 58.547 270) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
   (gr_line (start 137.16 80.645) (end 137.16 76.2) (layer Edge.Cuts) (width 0.15))
