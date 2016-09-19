@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:e-ink-frdm-adapter-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -142,7 +143,7 @@ F 1 "MF-DIO-SOD123-BAT42" H 5145 4045 50  0000 L CNN
 F 2 "Diodes_SMD:SOD-123" V 5425 4125 50  0001 C CNN
 F 3 "" V 5425 4125 50  0000 C CNN
 	1    5425 4125
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Text Label 5825 4125 0    60   ~ 0
 PREVGH
@@ -181,7 +182,7 @@ F 1 "MF-DIO-SOD123-BAT42" H 5350 3450 50  0000 L CNN
 F 2 "Diodes_SMD:SOD-123" V 5400 3550 50  0001 C CNN
 F 3 "" V 5400 3550 50  0000 C CNN
 	1    5400 3550
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Text Label 5825 3550 0    60   ~ 0
 PREVGL
@@ -561,7 +562,7 @@ F 1 "MF-DIO-SOD123-BAT42" H 4125 3700 50  0000 L CNN
 F 2 "Diodes_SMD:SOD-123" V 4600 3550 50  0001 C CNN
 F 3 "" V 4600 3550 50  0000 C CNN
 	1    4600 3550
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4500 3550 4275 3550
